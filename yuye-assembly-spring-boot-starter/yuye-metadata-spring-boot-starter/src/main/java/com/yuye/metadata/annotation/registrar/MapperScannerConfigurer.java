@@ -1,4 +1,4 @@
-package com.yuye.metadata.annotation.registrar;//package com.thunisoft.ninelaw.sdk.metadata.annotation.registrar;
+package com.yuye.metadata.annotation.registrar;
 //
 //import java.lang.annotation.Annotation;
 //import java.util.Map;
@@ -24,7 +24,7 @@ package com.yuye.metadata.annotation.registrar;//package com.thunisoft.ninelaw.s
 //import static org.springframework.util.Assert.notNull;
 //
 ///**
-// * @author: xgf
+// * @author: yuye
 // * @date: 2023/2/2 9:31
 // */
 //public class MapperScannerConfigurer

@@ -6,7 +6,7 @@ import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.AnnotationBeanNameGenerator;
 
 /**
- * @author: xgf
+ * @author: yuye
  * @date: 2023/1/30 15:50
  */
 public class MetadataBeanNameGenerator extends AnnotationBeanNameGenerator {

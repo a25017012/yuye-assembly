@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * @author: xgf
+ * @author: yuye
  * @date: 2023/1/30 15:46
  */
 public class MetadataRegistrar implements ImportBeanDefinitionRegistrar, ResourceLoaderAware {
@@ -74,8 +74,7 @@ public class MetadataRegistrar implements ImportBeanDefinitionRegistrar, Resourc
             // FactoryBean是一种特殊的Bean，其返回的对象不是指定类的一个实例，
             // 其返回的是该工厂Bean的getObject方法所返回的对象。
             definition.setBeanClass(ServiceFactory.class);
-        //ApplicationContextUtil.getBean("com.thunisoft.ninelaw.b.metadata.mapper.TestMapper")
-            definition.setAutowireMode(GenericBeanDefinition.AUTOWIRE_BY_TYPE);
+           definition.setAutowireMode(GenericBeanDefinition.AUTOWIRE_BY_TYPE);
             //beanClazz.getPackage().getName() + "."
 //            registry.registerBeanDefinition(StringUtils.toLowerCase(beanClazz.getSimpleName()) + "Metadata", definition);
             registry.registerBeanDefinition(beanClazz.getSimpleName().toLowerCase(Locale.ROOT), definition);

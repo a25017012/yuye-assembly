@@ -9,7 +9,7 @@ import org.springframework.core.type.filter.AnnotationTypeFilter;
 import java.util.Set;
 
 /**
- * @author: xgf
+ * @author: yuye
  * @date: 2023/1/30 15:48
  */
 public class FindMetadataServiceClassPathScanHandle extends ClassPathBeanDefinitionScanner {
