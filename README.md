@@ -8,11 +8,16 @@
 会排优先级进行开发，维护
 
 我可以分享的：
+
 1 binlog系统（支持数据朔源）
+
 2 搜索平台（数据聚合和搜索）
+
 3 
 
 文档获取：
-![Image text](./1.png)
+![Image text](https://github.com/a25017012/yuye-assembly/blob/main/1.jpg)
 
-输入 yuye组件pdf
+关注公众号，输入
+
+yuye组件pdf
