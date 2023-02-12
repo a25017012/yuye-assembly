@@ -20,6 +20,20 @@
     </properties>
 
     <dependencies>
+
+        <!-- mybatis-springboot-starter-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.yuye</groupId>
+            <artifactId>yuye-metadata-spring-boot-starter</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -101,7 +115,7 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
+        </plugins>w
     </build>
 
 </project>
